@@ -1,33 +1,9 @@
-.bacground-cuizine {
-   background-image: url('../img/header.jpg');
-   background-position: center;
-    
 
-}
 
-nav, header {
-    background-color: rgba(0, 0, 0, 80%);
-    
-}
-
-.navbar {
-    border-bottom: 2px solid rgba(73, 72, 72, 81%) ;
-}
-
-.navbar h2 a {
-    font-size: 30px;
-}
+/* Articles */
 
 .section-articles img {
     width: 100%;
-}
-
-.header-cuisine-row {
-    height: 400px;
-}
-
-.header-cuisine-row img {
-    width: 80px;
 }
 
 .section-articles > h2 {
@@ -40,20 +16,3 @@ nav, header {
     text-decoration: none;
 }
 
-aside button {
-    width: 100%;
-}
-
-footer a {
-    color: #fff;
-}
-
-footer ul {
-    list-style-type: none;
-    padding-left: 0px ;
-
-}
-
-aside i.bi, footer i {
-    padding: 5px;
-}

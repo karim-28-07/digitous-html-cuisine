@@ -1,10 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald:wght@200&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
 
-h1, h2, h3, h4, h5, h6, .navbar h2 a {
+h1, 
+h2,
+h3, 
+h4, 
+h5, 
+h6, 
+.navbar h2 a {
     font-family: 'courgette', cursive;
 }
 
 p, a {
     font-family: 'Oswald', sans-serif;
 }
+
+/* homepage & contact */
+
+.bacground-cuizine {
+    background-image: url('../img/header.jpg');
+    background-position: center;
+}
+
+.bacground-team {
+    background-image: url('../img/team/team.jpg');
+    background-position: center;
+}
+
+
+nav, header {
+    background-color: rgba(0, 0, 0, 80%);
+    
+}
+
+.navbar {
+    border-bottom: 2px solid rgba(73, 72, 72, 81%) ;
+}
+
+.navbar h2 a {
+    font-size: 30px;
+}
+
+.header-cuisine-row {
+    height: 400px;
+}
+
+
+.header-cuisine-row img {
+    width: 80px;
+}
+
+
+
+/* footer */
+
+footer a {
+    color: #fff;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0px ;
+
+}
+
+/* Aside */
+
+aside button {
+    width: 100%;
+}
+
+aside i.bi, footer i {
+    padding: 5px;
+}
+
