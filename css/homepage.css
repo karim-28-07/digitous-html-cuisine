@@ -18,6 +18,10 @@ nav, header {
     font-size: 30px;
 }
 
+.section-articles img {
+    width: 100%;
+}
+
 .header-cuisine-row {
     height: 400px;
 }
@@ -26,3 +30,30 @@ nav, header {
     width: 80px;
 }
 
+.section-articles > h2 {
+    font-family: 'Oswald',sans-serif ;
+    font-weight: bold;
+}
+
+.section-articles a {
+    color: #000;
+    text-decoration: none;
+}
+
+aside button {
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0px ;
+
+}
+
+aside i.bi, footer i {
+    padding: 5px;
+}
